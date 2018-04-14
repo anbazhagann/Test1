@@ -4,3 +4,21 @@
   "Parameters": {
     "VPCCIDR": {
       "Type": "String",
+      PublicSubnet1CIDR:
+
+        Description: Please enter the IP range (CIDR notation) for the public subnet in the first Availability Zone
+
+        Type: String
+
+        Default: 10.192.10.0/24
+
+
+
+    PublicSubnet2CIDR:
+
+        Description: Please enter the IP range (CIDR notation) for the public subnet in the second Availability Zone
+
+        Type: String
+
+        Default: 10.192.11.0/24
+      
