@@ -142,6 +142,8 @@ Resources:
       }
     }
   },
-  
+  C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe -NoExit 
+C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe -NoExit -Command Set-Location -LiteralPath '%L'
+As suggested in shell.ps1 I
   
       
