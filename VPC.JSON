@@ -132,4 +132,16 @@ Resources:
             AvailabilityZone: !Select [ 0, !GetAZs '' ]
 
             CidrBlock: !Ref PrivateSubnet1CIDR
+  
+  "Mappings": {
+    "ConsistentAZs": {
+      "ap-southeast-2": {
+        "a": "ap-southeast-2a",
+        "b": "ap-southeast-2b",
+        "c": "ap-southeast-2c"
+      }
+    }
+  },
+  
+  
       
